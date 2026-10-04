@@ -1,0 +1,902 @@
+{
+  "meta": {
+    "name": "Kindred prototype evidence graph",
+    "scope": "Danon disease and four comparison diseases. Hand-curated; every quote is checked against its source by scripts/verify-quotes.mjs.",
+    "curated": "2026-10-04",
+    "mechanismWeights": {
+      "molecular": 3,
+      "pathway": 2,
+      "cellular": 1
+    }
+  },
+  "nodes": [
+    {
+      "id": "danon",
+      "type": "disease",
+      "label": "Danon disease",
+      "aliases": [
+        "Danon",
+        "LAMP2 deficiency",
+        "LAMP-2 deficiency",
+        "lysosomal glycogen storage disease with normal acid maltase"
+      ],
+      "ids": {
+        "OMIM": "300257",
+        "ORPHA": "34587",
+        "MONDO": "0010281"
+      },
+      "hpoSources": [
+        "OMIM:300257",
+        "ORPHA:34587"
+      ],
+      "gene": "LAMP2"
+    },
+    {
+      "id": "pompe",
+      "type": "disease",
+      "label": "Pompe disease",
+      "aliases": [
+        "Pompe",
+        "glycogen storage disease II",
+        "GSD II",
+        "acid maltase deficiency",
+        "GAA deficiency"
+      ],
+      "ids": {
+        "OMIM": "232300",
+        "ORPHA": "365"
+      },
+      "hpoSources": [
+        "OMIM:232300",
+        "ORPHA:365"
+      ],
+      "gene": "GAA"
+    },
+    {
+      "id": "prkag2",
+      "type": "disease",
+      "label": "PRKAG2 cardiac syndrome",
+      "aliases": [
+        "PRKAG2",
+        "PRKAG2 syndrome",
+        "PRKAG2 cardiomyopathy",
+        "CMH6",
+        "familial hypertrophic cardiomyopathy 6"
+      ],
+      "ids": {
+        "OMIM": "600858",
+        "MONDO": "0010946"
+      },
+      "hpoSources": [
+        "OMIM:600858"
+      ],
+      "gene": "PRKAG2"
+    },
+    {
+      "id": "fabry",
+      "type": "disease",
+      "label": "Fabry disease",
+      "aliases": [
+        "Fabry",
+        "alpha-galactosidase A deficiency",
+        "GLA deficiency"
+      ],
+      "ids": {
+        "OMIM": "301500",
+        "ORPHA": "324"
+      },
+      "hpoSources": [
+        "OMIM:301500",
+        "ORPHA:324"
+      ],
+      "gene": "GLA"
+    },
+    {
+      "id": "hcm",
+      "type": "disease",
+      "label": "Sarcomeric hypertrophic cardiomyopathy (MYH7)",
+      "aliases": [
+        "HCM",
+        "hypertrophic cardiomyopathy",
+        "CMH1",
+        "MYH7 cardiomyopathy"
+      ],
+      "ids": {
+        "OMIM": "192600"
+      },
+      "hpoSources": [
+        "OMIM:192600"
+      ],
+      "gene": "MYH7"
+    },
+    {
+      "id": "LAMP2",
+      "type": "gene",
+      "label": "LAMP2"
+    },
+    {
+      "id": "GAA",
+      "type": "gene",
+      "label": "GAA"
+    },
+    {
+      "id": "PRKAG2",
+      "type": "gene",
+      "label": "PRKAG2"
+    },
+    {
+      "id": "GLA",
+      "type": "gene",
+      "label": "GLA"
+    },
+    {
+      "id": "MYH7",
+      "type": "gene",
+      "label": "MYH7"
+    },
+    {
+      "id": "m_lyso_membrane",
+      "type": "mechanism",
+      "tier": "molecular",
+      "label": "Lysosomal membrane (structural) protein"
+    },
+    {
+      "id": "m_lyso_enzyme",
+      "type": "mechanism",
+      "tier": "molecular",
+      "label": "Lysosomal enzyme"
+    },
+    {
+      "id": "m_ampk_subunit",
+      "type": "mechanism",
+      "tier": "molecular",
+      "label": "AMPK regulatory subunit"
+    },
+    {
+      "id": "m_sarcomere_protein",
+      "type": "mechanism",
+      "tier": "molecular",
+      "label": "Sarcomere thick-filament protein"
+    },
+    {
+      "id": "m_lysosome",
+      "type": "mechanism",
+      "tier": "pathway",
+      "label": "Lysosomal degradation"
+    },
+    {
+      "id": "m_ap_fusion",
+      "type": "mechanism",
+      "tier": "pathway",
+      "label": "Autophagosome–lysosome fusion"
+    },
+    {
+      "id": "m_ampk_signaling",
+      "type": "mechanism",
+      "tier": "pathway",
+      "label": "AMPK energy signalling"
+    },
+    {
+      "id": "m_sarcomere",
+      "type": "mechanism",
+      "tier": "pathway",
+      "label": "Sarcomere contraction"
+    },
+    {
+      "id": "m_glycogen",
+      "type": "mechanism",
+      "tier": "cellular",
+      "label": "Glycogen accumulation in muscle cells"
+    },
+    {
+      "id": "m_autophagic_buildup",
+      "type": "mechanism",
+      "tier": "cellular",
+      "label": "Autophagic vacuole build-up"
+    },
+    {
+      "id": "m_gb3",
+      "type": "mechanism",
+      "tier": "cellular",
+      "label": "Globotriaosylceramide build-up"
+    },
+    {
+      "id": "ph_disarray",
+      "type": "phenotype",
+      "label": "Myofiber disarray (HP:0031318)"
+    },
+    {
+      "id": "a_pompe_registry",
+      "type": "asset",
+      "kind": "registry",
+      "community": "pompe",
+      "label": "Pompe Disease Registry",
+      "url": "https://clinicaltrials.gov/study/NCT00231400"
+    },
+    {
+      "id": "a_pompe_ert",
+      "type": "asset",
+      "kind": "therapy",
+      "community": "pompe",
+      "label": "Enzyme replacement therapy (recombinant GAA)"
+    },
+    {
+      "id": "a_hex4",
+      "type": "asset",
+      "kind": "biomarker",
+      "community": "pompe",
+      "label": "Urine glucose tetrasaccharide (Hex4)"
+    },
+    {
+      "id": "a_pompe_autophagy_research",
+      "type": "asset",
+      "kind": "research",
+      "community": "pompe",
+      "label": "Autophagy-targeted approaches in Pompe mouse models"
+    },
+    {
+      "id": "a_danon_nhs_rocket",
+      "type": "asset",
+      "kind": "study",
+      "community": "danon",
+      "label": "Danon Disease Natural History Study (NCT06214507)",
+      "url": "https://clinicaltrials.gov/study/NCT06214507"
+    },
+    {
+      "id": "a_danon_nhs_retro",
+      "type": "asset",
+      "kind": "study",
+      "community": "danon",
+      "label": "Natural History of Danon Disease (NCT05548855)",
+      "url": "https://clinicaltrials.gov/study/NCT05548855"
+    },
+    {
+      "id": "a_danon_gt",
+      "type": "asset",
+      "kind": "study",
+      "community": "danon",
+      "label": "RP-A501 (AAV9.LAMP2B) gene therapy, phase 2 (NCT06092034)",
+      "url": "https://clinicaltrials.gov/study/NCT06092034"
+    },
+    {
+      "id": "a_danon_gt_p1",
+      "type": "asset",
+      "kind": "study",
+      "community": "danon",
+      "label": "RP-A501 (AAV9.LAMP2B) gene therapy, phase 1 (NCT03882437)",
+      "url": "https://clinicaltrials.gov/study/NCT03882437"
+    },
+    {
+      "id": "a_danon_nhs_ucsd",
+      "type": "asset",
+      "kind": "study",
+      "community": "danon",
+      "label": "The Natural History of Danon Disease, UCSD (NCT03766386)",
+      "url": "https://clinicaltrials.gov/study/NCT03766386"
+    },
+    {
+      "id": "a_lamp2_mouse",
+      "type": "asset",
+      "kind": "model",
+      "community": "danon",
+      "label": "LAMP-2-deficient mouse"
+    },
+    {
+      "id": "a_duke_gsd_nhs",
+      "type": "asset",
+      "kind": "study",
+      "community": "shared",
+      "label": "Rare Glycogen Storage Diseases Natural History Study (NCT06795152)",
+      "url": "https://clinicaltrials.gov/study/NCT06795152"
+    },
+    {
+      "id": "o_amda",
+      "type": "organization",
+      "community": "pompe",
+      "label": "Acid Maltase Deficiency Association (AMDA)",
+      "url": "https://amda-pompe.org/"
+    },
+    {
+      "id": "o_ipa",
+      "type": "organization",
+      "community": "pompe",
+      "label": "International Pompe Association",
+      "url": "https://www.worldpompe.org/"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e001",
+      "subject": "danon",
+      "relation": "is caused by variants in",
+      "object": "LAMP2",
+      "source": "MedlinePlus Genetics: Danon disease",
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/danon-disease/",
+      "evidence": "Danon disease is caused by variants (also called mutations) in the LAMP2 gene.",
+      "provenance": "CURATED",
+      "status": "SUPPORTED",
+      "corroboratedBy": [
+        {
+          "source": "Nishino et al., Nature 2000 (PMID 10972294)",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10972294/",
+          "evidence": "we conclude that primary LAMP-2 deficiency is the cause of Danon disease"
+        }
+      ]
+    },
+    {
+      "id": "e002",
+      "subject": "LAMP2",
+      "relation": "encodes a",
+      "object": "m_lyso_membrane",
+      "source": "Nishino et al., Nature 2000 (PMID 10972294)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10972294/",
+      "evidence": "primary deficiencies of LAMP-2, a principal lysosomal membrane protein",
+      "provenance": "EXTRACTED",
+      "status": "SUPPORTED",
+      "corroboratedBy": [
+        {
+          "source": "MedlinePlus Genetics: LAMP2 gene",
+          "sourceUrl": "https://medlineplus.gov/genetics/gene/lamp2/",
+          "evidence": "this protein is found in the membrane of cellular structures called lysosomes"
+        }
+      ]
+    },
+    {
+      "id": "e003",
+      "subject": "LAMP2",
+      "relation": "acts in",
+      "object": "m_lysosome",
+      "source": "MedlinePlus Genetics: LAMP2 gene",
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/lamp2/",
+      "evidence": "The LAMP-2 protein helps transport cellular materials or digestive enzymes into the lysosome",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e004",
+      "subject": "LAMP2",
+      "relation": "is required for",
+      "object": "m_ap_fusion",
+      "source": "MedlinePlus Genetics: LAMP2 gene",
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/lamp2/",
+      "evidence": "in cells without the LAMP-2 protein, fusion between autophagic vacuoles and lysosomes occurs more slowly, which leads to the accumulation of autophagic vacuoles",
+      "provenance": "CURATED",
+      "status": "SUPPORTED",
+      "corroboratedBy": [
+        {
+          "source": "Tanaka et al., Nature 2000 (PMID 10972293)",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10972293/",
+          "evidence": "These findings indicate that LAMP-2 is critical for autophagy."
+        }
+      ]
+    },
+    {
+      "id": "e005",
+      "subject": "danon",
+      "relation": "shows",
+      "object": "m_autophagic_buildup",
+      "source": "MedlinePlus Genetics: LAMP2 gene",
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/lamp2/",
+      "evidence": "People with Danon disease have an abnormally large number of autophagic vacuoles in their heart and skeletal muscle cells.",
+      "provenance": "CURATED",
+      "status": "SUPPORTED",
+      "corroboratedBy": [
+        {
+          "source": "Nishino et al., Nature 2000 (PMID 10972294)",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10972294/",
+          "evidence": "The pathological hallmark of the disease is intracytoplasmic vacuoles containing autophagic material and glycogen in skeletal and cardiac muscle cells."
+        }
+      ]
+    },
+    {
+      "id": "e006",
+      "subject": "danon",
+      "relation": "shows",
+      "object": "m_glycogen",
+      "source": "Nishino et al., Nature 2000 (PMID 10972294)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10972294/",
+      "evidence": "The pathological hallmark of the disease is intracytoplasmic vacuoles containing autophagic material and glycogen in skeletal and cardiac muscle cells.",
+      "provenance": "EXTRACTED",
+      "status": "SUPPORTED",
+      "corroboratedBy": [
+        {
+          "source": "Arad et al., NEJM 2005 (PMID 15673802)",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15673802/",
+          "evidence": "LAMP2 mutations typically cause multisystem glycogen-storage disease (Danon's disease)"
+        }
+      ]
+    },
+    {
+      "id": "e010",
+      "subject": "pompe",
+      "relation": "is caused by variants in",
+      "object": "GAA",
+      "source": "MedlinePlus Genetics: Pompe disease",
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/pompe-disease/",
+      "evidence": "Mutations in the GAA gene cause Pompe disease.",
+      "provenance": "CURATED",
+      "status": "SUPPORTED",
+      "corroboratedBy": [
+        {
+          "source": "Lim, Li & Raben, Front Aging Neurosci 2014 (PMID 25183957)",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25183957/",
+          "evidence": "Pompe disease is a lysosomal storage disorder in which acid alpha-glucosidase (GAA) is deficient or absent."
+        }
+      ]
+    },
+    {
+      "id": "e011",
+      "subject": "GAA",
+      "relation": "encodes a",
+      "object": "m_lyso_enzyme",
+      "source": "Kishnani et al., Neurology 2007 (PMID 17151339)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/17151339/",
+      "evidence": "Pompe disease is a progressive metabolic neuromuscular disorder resulting from deficiency of lysosomal acid alpha-glucosidase (GAA).",
+      "provenance": "EXTRACTED",
+      "status": "SUPPORTED",
+      "corroboratedBy": [
+        {
+          "source": "Lim, Li & Raben, Front Aging Neurosci 2014 (PMID 25183957)",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25183957/",
+          "evidence": "Deficiency of this lysosomal enzyme results in progressive expansion of glycogen-filled lysosomes in multiple tissues"
+        }
+      ]
+    },
+    {
+      "id": "e012",
+      "subject": "GAA",
+      "relation": "acts in",
+      "object": "m_lysosome",
+      "source": "Lim, Li & Raben, Front Aging Neurosci 2014 (PMID 25183957)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25183957/",
+      "evidence": "Deficiency of this lysosomal enzyme results in progressive expansion of glycogen-filled lysosomes in multiple tissues",
+      "provenance": "EXTRACTED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e013",
+      "subject": "pompe",
+      "relation": "shows",
+      "object": "m_glycogen",
+      "source": "Lim, Li & Raben, Front Aging Neurosci 2014 (PMID 25183957)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25183957/",
+      "evidence": "progressive expansion of glycogen-filled lysosomes in multiple tissues, with cardiac and skeletal muscle being the most severely affected",
+      "provenance": "EXTRACTED",
+      "status": "SUPPORTED",
+      "corroboratedBy": [
+        {
+          "source": "MedlinePlus Genetics: Pompe disease",
+          "sourceUrl": "https://medlineplus.gov/genetics/condition/pompe-disease/",
+          "evidence": "Mutations in the GAA gene prevent acid alpha-glucosidase from breaking down glycogen effectively, which allows this sugar to build up to toxic levels in lysosomes."
+        }
+      ]
+    },
+    {
+      "id": "e014",
+      "subject": "GAA",
+      "relation": "deficiency impairs",
+      "object": "m_ap_fusion",
+      "source": "Lim, Li & Raben, Front Aging Neurosci 2014 (PMID 25183957)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25183957/",
+      "evidence": "The autophagic process in Pompe skeletal muscle is affected at the termination stage-impaired autophagosomal-lysosomal fusion.",
+      "provenance": "EXTRACTED",
+      "status": "SINGLE_SOURCE"
+    },
+    {
+      "id": "e015",
+      "subject": "pompe",
+      "relation": "shows",
+      "object": "m_autophagic_buildup",
+      "source": "Lim, Li & Raben, Front Aging Neurosci 2014 (PMID 25183957)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25183957/",
+      "evidence": "The massive autophagic buildup and lipofuscin inclusions appear to cause a greater effect on muscle architecture than the enlarged lysosomes outside the autophagic regions.",
+      "provenance": "EXTRACTED",
+      "status": "SINGLE_SOURCE"
+    },
+    {
+      "id": "e020",
+      "subject": "prkag2",
+      "relation": "is caused by variants in",
+      "object": "PRKAG2",
+      "source": "Arad et al., J Clin Invest 2002 (PMID 11827995)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/11827995/",
+      "evidence": "Mutations in PRKAG2, the gene for the gamma 2 regulatory subunit of AMP-activated protein kinase, cause cardiac hypertrophy and electrophysiologic abnormalities",
+      "provenance": "EXTRACTED",
+      "status": "SUPPORTED",
+      "corroboratedBy": [
+        {
+          "source": "MedlinePlus Genetics: PRKAG2 gene",
+          "sourceUrl": "https://medlineplus.gov/genetics/gene/prkag2/",
+          "evidence": "Some people with these mutations also have features of hypertrophic cardiomyopathy"
+        }
+      ]
+    },
+    {
+      "id": "e021",
+      "subject": "PRKAG2",
+      "relation": "encodes an",
+      "object": "m_ampk_subunit",
+      "source": "MedlinePlus Genetics: PRKAG2 gene",
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/prkag2/",
+      "evidence": "The PRKAG2 gene provides instructions for making one part (the gamma-2 subunit) of a larger enzyme called AMP-activated protein kinase (AMPK).",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e022",
+      "subject": "PRKAG2",
+      "relation": "acts in",
+      "object": "m_ampk_signaling",
+      "source": "MedlinePlus Genetics: PRKAG2 gene",
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/prkag2/",
+      "evidence": "AMP-activated protein kinase regulates chemical pathways involving the cell's main energy source, a molecule called adenosine triphosphate (ATP).",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e023",
+      "subject": "prkag2",
+      "relation": "shows",
+      "object": "m_glycogen",
+      "source": "MedlinePlus Genetics: PRKAG2 gene",
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/prkag2/",
+      "evidence": "changes in AMP-activated protein kinase activity allow a complex sugar called glycogen to build up abnormally within cardiac muscle cells",
+      "provenance": "CURATED",
+      "status": "SUPPORTED",
+      "corroboratedBy": [
+        {
+          "source": "Arad et al., J Clin Invest 2002 (PMID 11827995)",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/11827995/",
+          "evidence": "Several lines of evidence indicated these vacuoles were filled with glycogen-associated granules."
+        }
+      ]
+    },
+    {
+      "id": "e024",
+      "subject": "prkag2",
+      "relation": "is described as",
+      "object": "m_ampk_signaling",
+      "label": "a metabolic storage disease driven by constitutively active AMP kinase, not a sarcomere disease",
+      "source": "Arad et al., J Clin Invest 2002 (PMID 11827995)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/11827995/",
+      "evidence": "our data indicate that PRKAG2 mutations do not cause hypertrophic cardiomyopathy but rather lead to a novel myocardial metabolic storage disease",
+      "provenance": "EXTRACTED",
+      "status": "SINGLE_SOURCE"
+    },
+    {
+      "id": "e030",
+      "subject": "danon",
+      "relation": "clinically resembles",
+      "object": "prkag2",
+      "source": "Arad et al., NEJM 2005 (PMID 15673802)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15673802/",
+      "evidence": "The glycogen-storage cardiomyopathy produced by LAMP2 or PRKAG2 mutations resembles hypertrophic cardiomyopathy but is distinguished by electrophysiological abnormalities, particularly ventricular preexcitation.",
+      "provenance": "EXTRACTED",
+      "status": "SINGLE_SOURCE"
+    },
+    {
+      "id": "e031",
+      "subject": "danon",
+      "relation": "can present like",
+      "object": "hcm",
+      "source": "Arad et al., NEJM 2005 (PMID 15673802)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15673802/",
+      "evidence": "LAMP2 mutations typically cause multisystem glycogen-storage disease (Danon's disease) but can also present as a primary cardiomyopathy.",
+      "provenance": "EXTRACTED",
+      "status": "SINGLE_SOURCE"
+    },
+    {
+      "id": "e032",
+      "subject": "danon",
+      "relation": "differs in molecular class from",
+      "object": "pompe",
+      "label": "Danon is caused by loss of a structural lysosomal protein; Pompe by loss of a lysosomal enzyme",
+      "source": "Nishino et al., Nature 2000 (PMID 10972294)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10972294/",
+      "evidence": "To our knowledge this is the first example of human cardiopathy-myopathy that is caused by mutations in a lysosomal structural protein rather than an enzymatic protein.",
+      "provenance": "EXTRACTED",
+      "status": "SINGLE_SOURCE"
+    },
+    {
+      "id": "e033",
+      "subject": "danon",
+      "relation": "was first described with",
+      "object": "pompe",
+      "label": "normal acid maltase, the enzyme that is deficient in Pompe disease",
+      "source": "Nishino et al., Nature 2000 (PMID 10972294)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10972294/",
+      "evidence": "\"Lysosomal glycogen storage disease with normal acid maltase\" which was originally described by Danon et al., is characterized clinically by cardiomyopathy, myopathy and variable mental retardation.",
+      "provenance": "EXTRACTED",
+      "status": "SINGLE_SOURCE",
+      "corroboratedBy": [
+        {
+          "source": "MedlinePlus Genetics: Pompe disease",
+          "sourceUrl": "https://medlineplus.gov/genetics/condition/pompe-disease/",
+          "evidence": "The GAA gene provides instructions for producing an enzyme called acid alpha-glucosidase (also known as acid maltase)."
+        }
+      ]
+    },
+    {
+      "id": "e034",
+      "subject": "prkag2",
+      "relation": "is distinguished from",
+      "object": "hcm",
+      "label": "PRKAG2 histology lacks the myocyte disarray of sarcomeric HCM",
+      "source": "Arad et al., J Clin Invest 2002 (PMID 11827995)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/11827995/",
+      "evidence": "these mutations were not associated with myocyte and myofibrillar disarray, the pathognomonic features of hypertrophic cardiomyopathy caused by sarcomere protein mutations",
+      "provenance": "EXTRACTED",
+      "status": "CONTESTED",
+      "contradictedBy": [
+        "e035"
+      ]
+    },
+    {
+      "id": "e035",
+      "subject": "prkag2",
+      "relation": "is annotated with",
+      "object": "ph_disarray",
+      "label": "HPO lists myofiber disarray for PRKAG2 cardiomyopathy (CMH6)",
+      "source": "HPO annotation OMIM:600858 → HP:0031318 (evidence code IEA, derived from OMIM)",
+      "sourceUrl": "https://hpo.jax.org/browse/term/HP:0031318",
+      "evidence": "HP:0031318 Myofiber disarray: annotated to Cardiomyopathy, familial hypertrophic, 6 (OMIM:600858); evidence code IEA (inferred from electronic annotation)",
+      "provenance": "CURATED",
+      "status": "CONTESTED",
+      "contradictedBy": [
+        "e034"
+      ]
+    },
+    {
+      "id": "e040",
+      "subject": "fabry",
+      "relation": "is caused by variants in",
+      "object": "GLA",
+      "source": "MedlinePlus Genetics: Fabry disease",
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/fabry-disease/",
+      "evidence": "Fabry disease is caused by variants (also known as mutations) in the GLA gene.",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e041",
+      "subject": "GLA",
+      "relation": "encodes a",
+      "object": "m_lyso_enzyme",
+      "source": "MedlinePlus Genetics: Fabry disease",
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/fabry-disease/",
+      "evidence": "This gene provides instructions for making an enzyme called alpha-galactosidase A. This enzyme is active in lysosomes",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e043",
+      "subject": "GLA",
+      "relation": "acts in",
+      "object": "m_lysosome",
+      "source": "MedlinePlus Genetics: Fabry disease",
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/fabry-disease/",
+      "evidence": "This gene provides instructions for making an enzyme called alpha-galactosidase A. This enzyme is active in lysosomes",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e042",
+      "subject": "fabry",
+      "relation": "shows",
+      "object": "m_gb3",
+      "source": "MedlinePlus Genetics: Fabry disease",
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/fabry-disease/",
+      "evidence": "globotriaosylceramide builds up in cells throughout the body",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e050",
+      "subject": "hcm",
+      "relation": "is caused by variants in",
+      "object": "MYH7",
+      "source": "MedlinePlus Genetics: Nonsyndromic hypertrophic cardiomyopathy",
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/nonsyndromic-hypertrophic-cardiomyopathy/",
+      "evidence": "variants in the MYH7 and MYBPC3 genes are the most common genetic cause of this condition.",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e051",
+      "subject": "MYH7",
+      "relation": "encodes a",
+      "object": "m_sarcomere_protein",
+      "source": "MedlinePlus Genetics: Nonsyndromic hypertrophic cardiomyopathy",
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/nonsyndromic-hypertrophic-cardiomyopathy/",
+      "evidence": "The protein produced from the MYH7 gene is the major component of the thick filament in sarcomeres",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e052",
+      "subject": "MYH7",
+      "relation": "acts in",
+      "object": "m_sarcomere",
+      "source": "MedlinePlus Genetics: Nonsyndromic hypertrophic cardiomyopathy",
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/nonsyndromic-hypertrophic-cardiomyopathy/",
+      "evidence": "Many of these altered proteins impair the function of the sarcomeres and disrupt cardiac muscle contraction.",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e060",
+      "subject": "a_pompe_registry",
+      "relation": "is a",
+      "object": "pompe",
+      "label": "global, longitudinal, observational natural-history registry for treated and untreated patients",
+      "source": "ClinicalTrials.gov NCT00231400",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT00231400",
+      "evidence": "The Pompe Registry is a global, multicenter, international, longitudinal, observational, and voluntary program for patients with Pompe disease, designed to track the disease's natural history and outcomes in patients, both treated and not.",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e061",
+      "subject": "a_pompe_registry",
+      "relation": "has a product-specific objective",
+      "object": "a_pompe_ert",
+      "source": "ClinicalTrials.gov NCT00231400",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT00231400",
+      "evidence": "To evaluate the long-term effectiveness of alglucosidase alfa.",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e062",
+      "subject": "a_pompe_ert",
+      "relation": "replaces the missing enzyme in",
+      "object": "pompe",
+      "source": "Kishnani et al., Neurology 2007 (PMID 17151339)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/17151339/",
+      "evidence": "Recombinant human acid alpha-glucosidase is safe and effective for treatment of infantile-onset Pompe disease.",
+      "provenance": "EXTRACTED",
+      "status": "SUPPORTED",
+      "corroboratedBy": [
+        {
+          "source": "Sperry et al., GeneReviews: Pompe Disease (PMID 20301438)",
+          "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/20301438/",
+          "evidence": "In those in whom enzyme replacement therapy (ERT) is initiated before age six months and before the need for ventilatory assistance, a majority have improved survival"
+        }
+      ]
+    },
+    {
+      "id": "e063",
+      "subject": "a_hex4",
+      "relation": "is annotated as a finding in",
+      "object": "pompe",
+      "source": "HPO annotation OMIM:232300 → HP:6001008 (ref. PMID 20301438)",
+      "sourceUrl": "https://hpo.jax.org/browse/term/HP:6001008",
+      "evidence": "HP:6001008 Elevated urine glucose tetrasaccharide level: annotated to Glycogen storage disease II (OMIM:232300)",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e064",
+      "subject": "a_pompe_autophagy_research",
+      "relation": "was tested in",
+      "object": "pompe",
+      "source": "Lim, Li & Raben, Front Aging Neurosci 2014 (PMID 25183957)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25183957/",
+      "evidence": "Several new therapeutic approaches have been tested in Pompe mouse models: substrate reduction therapy, lysosomal exocytosis following the overexpression of transcription factor EB and a closely related but distinct factor E3, and genetic manipulation of autophagy.",
+      "provenance": "EXTRACTED",
+      "status": "SINGLE_SOURCE"
+    },
+    {
+      "id": "e065",
+      "subject": "o_amda",
+      "relation": "is a patient organization for",
+      "object": "pompe",
+      "source": "AMDA website",
+      "sourceUrl": "https://amda-pompe.org/",
+      "evidence": "Organization website resolves (title: \"Home - AMDA Pompe\"), checked 2026-10-04.",
+      "provenance": "CURATED",
+      "status": "SINGLE_SOURCE"
+    },
+    {
+      "id": "e066",
+      "subject": "o_ipa",
+      "relation": "is a patient organization for",
+      "object": "pompe",
+      "source": "International Pompe Association website",
+      "sourceUrl": "https://www.worldpompe.org/",
+      "evidence": "Organization website resolves (title: \"International Pompe Association\"), checked 2026-10-04.",
+      "provenance": "CURATED",
+      "status": "SINGLE_SOURCE"
+    },
+    {
+      "id": "e070",
+      "subject": "a_danon_nhs_rocket",
+      "relation": "studies",
+      "object": "danon",
+      "source": "ClinicalTrials.gov NCT06214507 (Rocket Pharmaceuticals, recruiting)",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06214507",
+      "evidence": "The goal of this international observational study is to learn about the natural history of Danon disease in male patients (≥8 years of age) and female patients (8 to 50 years of age).",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e071",
+      "subject": "a_danon_nhs_retro",
+      "relation": "studies",
+      "object": "danon",
+      "source": "ClinicalTrials.gov NCT05548855 (Rocket Pharmaceuticals, completed)",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05548855",
+      "evidence": "This is a multicenter, international, non-interventional, natural history study designed to collect longitudinal retrospective clinical information on patients with Danon disease (DD).",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e072",
+      "subject": "a_danon_gt",
+      "relation": "tests a gene therapy in",
+      "object": "danon",
+      "source": "ClinicalTrials.gov NCT06092034 (Rocket Pharmaceuticals, phase 2, recruiting)",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06092034",
+      "evidence": "A Gene Therapy Study of RP-A501 in Male Patients With Danon Disease",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e076",
+      "subject": "a_danon_gt_p1",
+      "relation": "tests a gene therapy in",
+      "object": "danon",
+      "source": "ClinicalTrials.gov NCT03882437 (Rocket Pharmaceuticals, phase 1)",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03882437",
+      "evidence": "Gene Therapy for Male Patients With Danon Disease (DD) Using RP-A501; AAV9.LAMP2B",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e077",
+      "subject": "a_danon_nhs_ucsd",
+      "relation": "studies",
+      "object": "danon",
+      "source": "ClinicalTrials.gov NCT03766386 (University of California, San Diego)",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03766386",
+      "evidence": "The Natural History of Danon Disease",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e073",
+      "subject": "a_lamp2_mouse",
+      "relation": "models",
+      "object": "danon",
+      "source": "Tanaka et al., Nature 2000 (PMID 10972293)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10972293/",
+      "evidence": "Here we show that LAMP-2 deficiency in mice increases mortality between 20 and 40 days of age.",
+      "provenance": "EXTRACTED",
+      "status": "SINGLE_SOURCE"
+    },
+    {
+      "id": "e074",
+      "subject": "a_duke_gsd_nhs",
+      "relation": "enrolls both",
+      "object": "danon",
+      "label": "lists both Danon Disease and PRKAG2 among its conditions",
+      "source": "ClinicalTrials.gov NCT06795152 (Duke University, recruiting)",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06795152",
+      "evidence": "\"conditions\": … \"PRKAG2\" … \"Danon Disease\"",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "e075",
+      "subject": "a_duke_gsd_nhs",
+      "relation": "enrolls both",
+      "object": "prkag2",
+      "label": "lists both Danon Disease and PRKAG2 among its conditions",
+      "source": "ClinicalTrials.gov NCT06795152 (Duke University, recruiting)",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06795152",
+      "evidence": "\"conditions\": … \"PRKAG2\" … \"Danon Disease\"",
+      "provenance": "CURATED",
+      "status": "SUPPORTED"
+    }
+  ]
+}

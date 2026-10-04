@@ -1,0 +1,347 @@
+{
+  "checkedAt": "2026-10-04T10:32:54.044Z",
+  "checks": [
+    {
+      "edge": "e001",
+      "index": 0,
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/danon-disease/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e001",
+      "index": 1,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10972294/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e002",
+      "index": 0,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10972294/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e002",
+      "index": 1,
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/lamp2/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e003",
+      "index": 0,
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/lamp2/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e004",
+      "index": 0,
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/lamp2/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e004",
+      "index": 1,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10972293/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e005",
+      "index": 0,
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/lamp2/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e005",
+      "index": 1,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10972294/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e006",
+      "index": 0,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10972294/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e006",
+      "index": 1,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15673802/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e010",
+      "index": 0,
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/pompe-disease/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e010",
+      "index": 1,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25183957/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e011",
+      "index": 0,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/17151339/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e011",
+      "index": 1,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25183957/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e012",
+      "index": 0,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25183957/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e013",
+      "index": 0,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25183957/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e013",
+      "index": 1,
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/pompe-disease/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e014",
+      "index": 0,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25183957/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e015",
+      "index": 0,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25183957/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e020",
+      "index": 0,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/11827995/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e020",
+      "index": 1,
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/prkag2/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e021",
+      "index": 0,
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/prkag2/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e022",
+      "index": 0,
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/prkag2/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e023",
+      "index": 0,
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/prkag2/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e023",
+      "index": 1,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/11827995/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e024",
+      "index": 0,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/11827995/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e030",
+      "index": 0,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15673802/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e031",
+      "index": 0,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15673802/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e032",
+      "index": 0,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10972294/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e033",
+      "index": 0,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10972294/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e033",
+      "index": 1,
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/pompe-disease/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e034",
+      "index": 0,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/11827995/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e035",
+      "index": 0,
+      "sourceUrl": "https://hpo.jax.org/browse/term/HP:0031318",
+      "result": "NOT_CHECKABLE"
+    },
+    {
+      "edge": "e040",
+      "index": 0,
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/fabry-disease/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e041",
+      "index": 0,
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/fabry-disease/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e043",
+      "index": 0,
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/fabry-disease/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e042",
+      "index": 0,
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/fabry-disease/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e050",
+      "index": 0,
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/nonsyndromic-hypertrophic-cardiomyopathy/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e051",
+      "index": 0,
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/nonsyndromic-hypertrophic-cardiomyopathy/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e052",
+      "index": 0,
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/nonsyndromic-hypertrophic-cardiomyopathy/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e060",
+      "index": 0,
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT00231400",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e061",
+      "index": 0,
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT00231400",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e062",
+      "index": 0,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/17151339/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e062",
+      "index": 1,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/20301438/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e063",
+      "index": 0,
+      "sourceUrl": "https://hpo.jax.org/browse/term/HP:6001008",
+      "result": "NOT_CHECKABLE"
+    },
+    {
+      "edge": "e064",
+      "index": 0,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25183957/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e065",
+      "index": 0,
+      "sourceUrl": "https://amda-pompe.org/",
+      "result": "NOT_CHECKABLE"
+    },
+    {
+      "edge": "e066",
+      "index": 0,
+      "sourceUrl": "https://www.worldpompe.org/",
+      "result": "NOT_CHECKABLE"
+    },
+    {
+      "edge": "e070",
+      "index": 0,
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06214507",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e071",
+      "index": 0,
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT05548855",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e072",
+      "index": 0,
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06092034",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e076",
+      "index": 0,
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03882437",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e077",
+      "index": 0,
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT03766386",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e073",
+      "index": 0,
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10972293/",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e074",
+      "index": 0,
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06795152",
+      "result": "VERIFIED"
+    },
+    {
+      "edge": "e075",
+      "index": 0,
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT06795152",
+      "result": "VERIFIED"
+    }
+  ]
+}

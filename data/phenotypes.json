@@ -1,0 +1,2981 @@
+{
+  "method": "simGIC over HPO 'Phenotypic abnormality' annotations, ancestor-propagated, IC weighted across all HPO-annotated diseases",
+  "hpoVersion": "2026-09-02",
+  "annotatedDiseases": 12867,
+  "diseases": {
+    "danon": {
+      "sources": [
+        "OMIM:300257",
+        "ORPHA:34587"
+      ],
+      "directTermCount": 56,
+      "keyTerms": [
+        {
+          "id": "HP:0025717",
+          "name": "Skeletal muscle autophagosome accumulation",
+          "ic": 8.08,
+          "frequency": 1
+        },
+        {
+          "id": "HP:0001644",
+          "name": "Dilated cardiomyopathy",
+          "ic": 4.15,
+          "frequency": 1
+        },
+        {
+          "id": "HP:0010547",
+          "name": "Muscle flaccidity",
+          "ic": 6.52,
+          "frequency": 0.9
+        },
+        {
+          "id": "HP:0006543",
+          "name": "Cardiorespiratory arrest",
+          "ic": 6.37,
+          "frequency": 0.9
+        },
+        {
+          "id": "HP:0001962",
+          "name": "Palpitations",
+          "ic": 4.72,
+          "frequency": 0.9
+        },
+        {
+          "id": "HP:0001279",
+          "name": "Syncope",
+          "ic": 4.62,
+          "frequency": 0.9
+        },
+        {
+          "id": "HP:0001639",
+          "name": "Hypertrophic cardiomyopathy",
+          "ic": 3.92,
+          "frequency": 0.9
+        },
+        {
+          "id": "HP:0003756",
+          "name": "Skeletal myopathy",
+          "ic": 7.16,
+          "frequency": 0.55
+        }
+      ]
+    },
+    "pompe": {
+      "sources": [
+        "OMIM:232300",
+        "ORPHA:365"
+      ],
+      "directTermCount": 94,
+      "keyTerms": [
+        {
+          "id": "HP:0001790",
+          "name": "Nonimmune hydrops fetalis",
+          "ic": 5.44,
+          "frequency": 1
+        },
+        {
+          "id": "HP:0034932",
+          "name": "Decreased circulating acid maltase activity",
+          "ic": 9.46,
+          "frequency": 0.9
+        },
+        {
+          "id": "HP:0010471",
+          "name": "Oligosacchariduria",
+          "ic": 6.47,
+          "frequency": 0.9
+        },
+        {
+          "id": "HP:0009073",
+          "name": "Progressive proximal muscle weakness",
+          "ic": 6.24,
+          "frequency": 0.9
+        },
+        {
+          "id": "HP:0030231",
+          "name": "Glycogen accumulation in muscle fiber lysosomes",
+          "ic": 8.36,
+          "frequency": 0.55
+        },
+        {
+          "id": "HP:0100595",
+          "name": "Camptocormia",
+          "ic": 6.9,
+          "frequency": 0.55
+        },
+        {
+          "id": "HP:0000338",
+          "name": "Hypomimic face",
+          "ic": 5.68,
+          "frequency": 0.55
+        },
+        {
+          "id": "HP:0001308",
+          "name": "Tongue fasciculations",
+          "ic": 5.51,
+          "frequency": 0.55
+        }
+      ]
+    },
+    "prkag2": {
+      "sources": [
+        "OMIM:600858"
+      ],
+      "directTermCount": 16,
+      "keyTerms": [
+        {
+          "id": "HP:0006677",
+          "name": "Prolonged QRS complex",
+          "ic": 6.75,
+          "frequency": 0.8
+        },
+        {
+          "id": "HP:0001639",
+          "name": "Hypertrophic cardiomyopathy",
+          "ic": 3.92,
+          "frequency": 0.75
+        },
+        {
+          "id": "HP:0001635",
+          "name": "Congestive heart failure",
+          "ic": 3.7,
+          "frequency": 0.5
+        }
+      ]
+    },
+    "fabry": {
+      "sources": [
+        "OMIM:301500",
+        "ORPHA:324"
+      ],
+      "directTermCount": 91,
+      "keyTerms": [
+        {
+          "id": "HP:0033595",
+          "name": "Elevated circulating globotriaosylceramide concentration",
+          "ic": 8.77,
+          "frequency": 0.9
+        },
+        {
+          "id": "HP:0034864",
+          "name": "Decreased alpha-galactosidase A activity",
+          "ic": 8.77,
+          "frequency": 0.9
+        },
+        {
+          "id": "HP:0001014",
+          "name": "Angiokeratoma",
+          "ic": 7.16,
+          "frequency": 0.9
+        },
+        {
+          "id": "HP:0000524",
+          "name": "Conjunctival telangiectasia",
+          "ic": 6.52,
+          "frequency": 0.9
+        },
+        {
+          "id": "HP:0002326",
+          "name": "Transient ischemic attack",
+          "ic": 5.63,
+          "frequency": 0.9
+        },
+        {
+          "id": "HP:0001131",
+          "name": "Corneal dystrophy",
+          "ic": 5.34,
+          "frequency": 0.9
+        },
+        {
+          "id": "HP:0100585",
+          "name": "Telangiectasia of the skin",
+          "ic": 5.02,
+          "frequency": 0.9
+        },
+        {
+          "id": "HP:0001482",
+          "name": "Subcutaneous nodule",
+          "ic": 4.86,
+          "frequency": 0.9
+        }
+      ]
+    },
+    "hcm": {
+      "sources": [
+        "OMIM:192600"
+      ],
+      "directTermCount": 5,
+      "keyTerms": []
+    }
+  },
+  "pairs": {
+    "danon|pompe": {
+      "simGIC": 0.128,
+      "shared": [
+        {
+          "id": "HP:0009073",
+          "name": "Progressive proximal muscle weakness",
+          "ic": 6.24,
+          "refsA": [
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0001716",
+          "name": "Wolff-Parkinson-White syndrome",
+          "ic": 6.2,
+          "refsA": [
+            "OMIM:300257 · PMID:15253947",
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": [
+            "OMIM:232300 · OMIM:232300"
+          ]
+        },
+        {
+          "id": "HP:0003458",
+          "name": "EMG: myopathic abnormalities",
+          "ic": 4.69,
+          "refsA": [
+            "OMIM:300257 · OMIM:300257"
+          ],
+          "refsB": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0001640",
+          "name": "Cardiomegaly",
+          "ic": 4.56,
+          "refsA": [
+            "OMIM:300257 · OMIM:300257"
+          ],
+          "refsB": [
+            "OMIM:232300 · OMIM:232300",
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0003546",
+          "name": "Exercise intolerance",
+          "ic": 4.52,
+          "refsA": [
+            "OMIM:300257 · OMIM:300257"
+          ],
+          "refsB": [
+            "OMIM:232300 · PMID:35386406",
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0005162",
+          "name": "Abnormal left ventricular function",
+          "ic": 4.43,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0003115",
+          "name": "Abnormal EKG",
+          "ic": 4.22,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0001649",
+          "name": "Tachycardia",
+          "ic": 4.11,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0001639",
+          "name": "Hypertrophic cardiomyopathy",
+          "ic": 3.92,
+          "refsA": [
+            "OMIM:300257 · PMID:15253947",
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0002910",
+          "name": "Elevated circulating hepatic transaminase concentration",
+          "ic": 3.34,
+          "refsA": [
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": null
+        },
+        {
+          "id": "HP:0003236",
+          "name": "Elevated circulating creatine kinase activity",
+          "ic": 3.25,
+          "refsA": [
+            "OMIM:300257 · PMID:15253947",
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": [
+            "OMIM:232300 · OMIM:232300",
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0003690",
+          "name": "Limb muscle weakness",
+          "ic": 3.25,
+          "refsA": [
+            "OMIM:300257 · PMID:15253947"
+          ],
+          "refsB": [
+            "OMIM:232300 · PMID:35386406"
+          ]
+        },
+        {
+          "id": "HP:0002094",
+          "name": "Dyspnea",
+          "ic": 3.13,
+          "refsA": [
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": [
+            "OMIM:232300 · PMID:35386406"
+          ]
+        },
+        {
+          "id": "HP:0002093",
+          "name": "Respiratory insufficiency",
+          "ic": 2.76,
+          "refsA": null,
+          "refsB": [
+            "OMIM:232300 · OMIM:232300",
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0002240",
+          "name": "Hepatomegaly",
+          "ic": 2.66,
+          "refsA": [
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": [
+            "OMIM:232300 · OMIM:232300",
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0012531",
+          "name": "Pain",
+          "ic": 2.38,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0100543",
+          "name": "Cognitive impairment",
+          "ic": 2.3,
+          "refsA": [
+            "OMIM:300257 · PMID:15253947"
+          ],
+          "refsB": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0001270",
+          "name": "Motor delay",
+          "ic": 2.26,
+          "refsA": [
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0001288",
+          "name": "Gait disturbance",
+          "ic": 1.98,
+          "refsA": [
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": [
+            "OMIM:232300 · PMID:35386406",
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0011442",
+          "name": "Abnormal central motor function",
+          "ic": 1.37,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0012373",
+          "name": "Abnormal eye physiology",
+          "ic": 1.08,
+          "refsA": null,
+          "refsB": null
+        }
+      ],
+      "onlyA": [
+        {
+          "id": "HP:0025075",
+          "name": "Increased QRS voltage",
+          "ic": 8.36,
+          "refs": [
+            "OMIM:300257 · PMID:15253947"
+          ]
+        },
+        {
+          "id": "HP:0025717",
+          "name": "Skeletal muscle autophagosome accumulation",
+          "ic": 8.08,
+          "refs": [
+            "OMIM:300257 · PMID:10972294"
+          ]
+        },
+        {
+          "id": "HP:0001700",
+          "name": "Myocardial necrosis",
+          "ic": 8.08,
+          "refs": [
+            "OMIM:300257 · OMIM:300257"
+          ]
+        },
+        {
+          "id": "HP:0003756",
+          "name": "Skeletal myopathy",
+          "ic": 7.16,
+          "refs": [
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        },
+        {
+          "id": "HP:0010547",
+          "name": "Muscle flaccidity",
+          "ic": 6.52,
+          "refs": [
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        },
+        {
+          "id": "HP:0011706",
+          "name": "Second degree atrioventricular block",
+          "ic": 6.42,
+          "refs": [
+            "OMIM:300257 · PMID:15253947"
+          ]
+        },
+        {
+          "id": "HP:0006543",
+          "name": "Cardiorespiratory arrest",
+          "ic": 6.37,
+          "refs": [
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        },
+        {
+          "id": "HP:0012666",
+          "name": "Severely reduced left ventricular ejection fraction",
+          "ic": 6.33,
+          "refs": [
+            "OMIM:300257 · PMID:15253947"
+          ]
+        },
+        {
+          "id": "HP:0003710",
+          "name": "Exercise-induced muscle cramps",
+          "ic": 6.28,
+          "refs": [
+            "OMIM:300257 · OMIM:300257"
+          ]
+        },
+        {
+          "id": "HP:0001685",
+          "name": "Myocardial fibrosis",
+          "ic": 6.17,
+          "refs": [
+            "OMIM:300257 · OMIM:300257"
+          ]
+        },
+        {
+          "id": "HP:0030828",
+          "name": "Wheezing",
+          "ic": 5.72,
+          "refs": [
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        },
+        {
+          "id": "HP:0002375",
+          "name": "Hypokinesia",
+          "ic": 5.63,
+          "refs": [
+            "OMIM:300257 · OMIM:300257"
+          ]
+        }
+      ],
+      "onlyB": [
+        {
+          "id": "HP:6001008",
+          "name": "Elevated urine glucose tetrasaccharide level",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:232300 · PMID:20301438"
+          ]
+        },
+        {
+          "id": "HP:6000088",
+          "name": "Reduced muscle alpha-1,4-glucosidase activity",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:232300 · OMIM:232300"
+          ]
+        },
+        {
+          "id": "HP:0033235",
+          "name": "Difficulty descending stairs",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:232300 · PMID:35386406"
+          ]
+        },
+        {
+          "id": "HP:0031310",
+          "name": "Basilar artery calcification",
+          "ic": 9.46,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0034932",
+          "name": "Decreased circulating acid maltase activity",
+          "ic": 9.46,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0003725",
+          "name": "Firm muscles",
+          "ic": 8.77,
+          "refs": [
+            "OMIM:232300 · OMIM:232300"
+          ]
+        },
+        {
+          "id": "HP:0030231",
+          "name": "Glycogen accumulation in muscle fiber lysosomes",
+          "ic": 8.36,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0033567",
+          "name": "Right axis deviation",
+          "ic": 8.08,
+          "refs": [
+            "OMIM:232300 · PMID:35386406"
+          ]
+        },
+        {
+          "id": "HP:0032232",
+          "name": "Elevated circulating CK-MB concentration",
+          "ic": 7.52,
+          "refs": [
+            "OMIM:232300 · PMID:35386406"
+          ]
+        },
+        {
+          "id": "HP:0030195",
+          "name": "Fatigable weakness of swallowing muscles",
+          "ic": 7.38,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0030196",
+          "name": "Fatigable weakness of respiratory muscles",
+          "ic": 7.27,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:3000062",
+          "name": "Abnormal internal carotid artery morphology",
+          "ic": 7.16,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        }
+      ]
+    },
+    "danon|prkag2": {
+      "simGIC": 0.182,
+      "shared": [
+        {
+          "id": "HP:0001716",
+          "name": "Wolff-Parkinson-White syndrome",
+          "ic": 6.2,
+          "refsA": [
+            "OMIM:300257 · PMID:15253947",
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0025074",
+          "name": "Abnormal QRS complex",
+          "ic": 6.13,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0001678",
+          "name": "Atrioventricular block",
+          "ic": 4.91,
+          "refsA": [
+            "OMIM:300257 · PMID:15253947"
+          ],
+          "refsB": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001962",
+          "name": "Palpitations",
+          "ic": 4.72,
+          "refsA": [
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001692",
+          "name": "Atrial arrhythmia",
+          "ic": 4.66,
+          "refsA": [
+            "OMIM:300257 · PMID:15253947"
+          ],
+          "refsB": null
+        },
+        {
+          "id": "HP:0001279",
+          "name": "Syncope",
+          "ic": 4.62,
+          "refsA": [
+            "OMIM:300257 · PMID:15253947",
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0100749",
+          "name": "Chest pain",
+          "ic": 4.56,
+          "refsA": [
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001639",
+          "name": "Hypertrophic cardiomyopathy",
+          "ic": 3.92,
+          "refsA": [
+            "OMIM:300257 · PMID:15253947",
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": [
+            "OMIM:600858 · PMID:11371514;PMID:15673802"
+          ]
+        },
+        {
+          "id": "HP:0001635",
+          "name": "Congestive heart failure",
+          "ic": 3.7,
+          "refsA": [
+            "OMIM:300257 · PMID:15253947"
+          ],
+          "refsB": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        }
+      ],
+      "onlyA": [
+        {
+          "id": "HP:0025075",
+          "name": "Increased QRS voltage",
+          "ic": 8.36,
+          "refs": [
+            "OMIM:300257 · PMID:15253947"
+          ]
+        },
+        {
+          "id": "HP:0025717",
+          "name": "Skeletal muscle autophagosome accumulation",
+          "ic": 8.08,
+          "refs": [
+            "OMIM:300257 · PMID:10972294"
+          ]
+        },
+        {
+          "id": "HP:0001700",
+          "name": "Myocardial necrosis",
+          "ic": 8.08,
+          "refs": [
+            "OMIM:300257 · OMIM:300257"
+          ]
+        },
+        {
+          "id": "HP:0003756",
+          "name": "Skeletal myopathy",
+          "ic": 7.16,
+          "refs": [
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        },
+        {
+          "id": "HP:0010547",
+          "name": "Muscle flaccidity",
+          "ic": 6.52,
+          "refs": [
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        },
+        {
+          "id": "HP:0011706",
+          "name": "Second degree atrioventricular block",
+          "ic": 6.42,
+          "refs": [
+            "OMIM:300257 · PMID:15253947"
+          ]
+        },
+        {
+          "id": "HP:0006543",
+          "name": "Cardiorespiratory arrest",
+          "ic": 6.37,
+          "refs": [
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        },
+        {
+          "id": "HP:0012666",
+          "name": "Severely reduced left ventricular ejection fraction",
+          "ic": 6.33,
+          "refs": [
+            "OMIM:300257 · PMID:15253947"
+          ]
+        },
+        {
+          "id": "HP:0003710",
+          "name": "Exercise-induced muscle cramps",
+          "ic": 6.28,
+          "refs": [
+            "OMIM:300257 · OMIM:300257"
+          ]
+        },
+        {
+          "id": "HP:0009073",
+          "name": "Progressive proximal muscle weakness",
+          "ic": 6.24,
+          "refs": [
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        },
+        {
+          "id": "HP:0001685",
+          "name": "Myocardial fibrosis",
+          "ic": 6.17,
+          "refs": [
+            "OMIM:300257 · OMIM:300257"
+          ]
+        },
+        {
+          "id": "HP:0030828",
+          "name": "Wheezing",
+          "ic": 5.72,
+          "refs": [
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        }
+      ],
+      "onlyB": [
+        {
+          "id": "HP:0031628",
+          "name": "Aborted sudden cardiac death",
+          "ic": 7.85,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001670",
+          "name": "Asymmetric septal hypertrophy",
+          "ic": 6.98,
+          "refs": [
+            "OMIM:600858 · OMIM:600858"
+          ]
+        },
+        {
+          "id": "HP:0031318",
+          "name": "Myofiber disarray",
+          "ic": 6.9,
+          "refs": [
+            "OMIM:600858 · OMIM:600858"
+          ]
+        },
+        {
+          "id": "HP:0005165",
+          "name": "Shortened PR interval",
+          "ic": 6.9,
+          "refs": [
+            "OMIM:600858 · PMID:15673802"
+          ]
+        },
+        {
+          "id": "HP:0006677",
+          "name": "Prolonged QRS complex",
+          "ic": 6.75,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0011713",
+          "name": "Left bundle branch block",
+          "ic": 6.28,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001688",
+          "name": "Sinus bradycardia",
+          "ic": 6.17,
+          "refs": [
+            "OMIM:600858 · OMIM:600858"
+          ]
+        },
+        {
+          "id": "HP:0005110",
+          "name": "Atrial fibrillation",
+          "ic": 4.79,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        }
+      ]
+    },
+    "danon|fabry": {
+      "simGIC": 0.105,
+      "shared": [
+        {
+          "id": "HP:0001678",
+          "name": "Atrioventricular block",
+          "ic": 4.91,
+          "refsA": [
+            "OMIM:300257 · PMID:15253947"
+          ],
+          "refsB": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0003546",
+          "name": "Exercise intolerance",
+          "ic": 4.52,
+          "refsA": [
+            "OMIM:300257 · OMIM:300257"
+          ],
+          "refsB": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0003394",
+          "name": "Muscle spasm",
+          "ic": 4.25,
+          "refsA": null,
+          "refsB": [
+            "OMIM:301500 · OMIM:301500"
+          ]
+        },
+        {
+          "id": "HP:0001639",
+          "name": "Hypertrophic cardiomyopathy",
+          "ic": 3.92,
+          "refsA": [
+            "OMIM:300257 · PMID:15253947",
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0001635",
+          "name": "Congestive heart failure",
+          "ic": 3.7,
+          "refsA": [
+            "OMIM:300257 · PMID:15253947"
+          ],
+          "refsB": [
+            "OMIM:301500 · OMIM:301500",
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0000716",
+          "name": "Depression",
+          "ic": 3.65,
+          "refsA": [
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0000739",
+          "name": "Anxiety",
+          "ic": 3.47,
+          "refsA": [
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0002094",
+          "name": "Dyspnea",
+          "ic": 3.13,
+          "refsA": [
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0011675",
+          "name": "Arrhythmia",
+          "ic": 2.9,
+          "refsA": null,
+          "refsB": [
+            "OMIM:301500 · OMIM:301500",
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0012379",
+          "name": "Abnormal circulating enzyme concentration or activity",
+          "ic": 2.77,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0002093",
+          "name": "Respiratory insufficiency",
+          "ic": 2.76,
+          "refsA": null,
+          "refsB": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0012531",
+          "name": "Pain",
+          "ic": 2.38,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0100543",
+          "name": "Cognitive impairment",
+          "ic": 2.3,
+          "refsA": [
+            "OMIM:300257 · PMID:15253947"
+          ],
+          "refsB": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0430071",
+          "name": "Abnormal circulating organic compound concentration",
+          "ic": 1.87,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0001098",
+          "name": "Abnormal fundus morphology",
+          "ic": 1.86,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0000708",
+          "name": "Atypical behavior",
+          "ic": 1.83,
+          "refsA": [
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0011442",
+          "name": "Abnormal central motor function",
+          "ic": 1.37,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0100022",
+          "name": "Abnormality of movement",
+          "ic": 1.35,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0002814",
+          "name": "Abnormality of the lower limb",
+          "ic": 1.3,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0025031",
+          "name": "Abnormality of the digestive system",
+          "ic": 0.94,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0012759",
+          "name": "Neurodevelopmental abnormality",
+          "ic": 0.93,
+          "refsA": null,
+          "refsB": null
+        }
+      ],
+      "onlyA": [
+        {
+          "id": "HP:0025075",
+          "name": "Increased QRS voltage",
+          "ic": 8.36,
+          "refs": [
+            "OMIM:300257 · PMID:15253947"
+          ]
+        },
+        {
+          "id": "HP:0025717",
+          "name": "Skeletal muscle autophagosome accumulation",
+          "ic": 8.08,
+          "refs": [
+            "OMIM:300257 · PMID:10972294"
+          ]
+        },
+        {
+          "id": "HP:0001700",
+          "name": "Myocardial necrosis",
+          "ic": 8.08,
+          "refs": [
+            "OMIM:300257 · OMIM:300257"
+          ]
+        },
+        {
+          "id": "HP:0003756",
+          "name": "Skeletal myopathy",
+          "ic": 7.16,
+          "refs": [
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        },
+        {
+          "id": "HP:0010547",
+          "name": "Muscle flaccidity",
+          "ic": 6.52,
+          "refs": [
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        },
+        {
+          "id": "HP:0011706",
+          "name": "Second degree atrioventricular block",
+          "ic": 6.42,
+          "refs": [
+            "OMIM:300257 · PMID:15253947"
+          ]
+        },
+        {
+          "id": "HP:0006543",
+          "name": "Cardiorespiratory arrest",
+          "ic": 6.37,
+          "refs": [
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        },
+        {
+          "id": "HP:0012666",
+          "name": "Severely reduced left ventricular ejection fraction",
+          "ic": 6.33,
+          "refs": [
+            "OMIM:300257 · PMID:15253947"
+          ]
+        },
+        {
+          "id": "HP:0003710",
+          "name": "Exercise-induced muscle cramps",
+          "ic": 6.28,
+          "refs": [
+            "OMIM:300257 · OMIM:300257"
+          ]
+        },
+        {
+          "id": "HP:0009073",
+          "name": "Progressive proximal muscle weakness",
+          "ic": 6.24,
+          "refs": [
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        },
+        {
+          "id": "HP:0001716",
+          "name": "Wolff-Parkinson-White syndrome",
+          "ic": 6.2,
+          "refs": [
+            "OMIM:300257 · PMID:15253947",
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        },
+        {
+          "id": "HP:0001685",
+          "name": "Myocardial fibrosis",
+          "ic": 6.17,
+          "refs": [
+            "OMIM:300257 · OMIM:300257"
+          ]
+        }
+      ],
+      "onlyB": [
+        {
+          "id": "HP:0032567",
+          "name": "Lipiduria",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:301500 · PMID:26124059"
+          ]
+        },
+        {
+          "id": "HP:0032568",
+          "name": "Urinary mulberry cells",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:301500 · PMID:28593486"
+          ]
+        },
+        {
+          "id": "HP:0033595",
+          "name": "Elevated circulating globotriaosylceramide concentration",
+          "ic": 8.77,
+          "refs": [
+            "OMIM:301500 · PMID:17073606",
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0034864",
+          "name": "Decreased alpha-galactosidase A activity",
+          "ic": 8.77,
+          "refs": [
+            "OMIM:301500 · OMIM:301500",
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0500008",
+          "name": "Cornea verticillata",
+          "ic": 8.77,
+          "refs": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0001071",
+          "name": "Angiokeratoma corporis diffusum",
+          "ic": 7.67,
+          "refs": [
+            "OMIM:301500 · PMID:8993949"
+          ]
+        },
+        {
+          "id": "HP:0012702",
+          "name": "Tenesmus",
+          "ic": 7.52,
+          "refs": [
+            "OMIM:301500 · OMIM:301500"
+          ]
+        },
+        {
+          "id": "HP:0001014",
+          "name": "Angiokeratoma",
+          "ic": 7.16,
+          "refs": [
+            "OMIM:301500 · OMIM:301500",
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0004343",
+          "name": "Abnormal glycosphingolipid metabolism",
+          "ic": 6.82,
+          "refs": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0005144",
+          "name": "Ventricular septal hypertrophy",
+          "ic": 6.57,
+          "refs": [
+            "OMIM:301500 · PMID:19473999"
+          ]
+        },
+        {
+          "id": "HP:0012532",
+          "name": "Chronic pain",
+          "ic": 6.57,
+          "refs": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0031006",
+          "name": "Acroparesthesia",
+          "ic": 6.57,
+          "refs": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        }
+      ]
+    },
+    "danon|hcm": {
+      "simGIC": 0.05,
+      "shared": [
+        {
+          "id": "HP:0001639",
+          "name": "Hypertrophic cardiomyopathy",
+          "ic": 3.92,
+          "refsA": [
+            "OMIM:300257 · PMID:15253947",
+            "ORPHA:34587 · ORPHA:34587"
+          ],
+          "refsB": null
+        },
+        {
+          "id": "HP:0001635",
+          "name": "Congestive heart failure",
+          "ic": 3.7,
+          "refsA": [
+            "OMIM:300257 · PMID:15253947"
+          ],
+          "refsB": [
+            "OMIM:192600 · OMIM:192600"
+          ]
+        },
+        {
+          "id": "HP:0011675",
+          "name": "Arrhythmia",
+          "ic": 2.9,
+          "refsA": null,
+          "refsB": [
+            "OMIM:192600 · OMIM:192600"
+          ]
+        },
+        {
+          "id": "HP:0025142",
+          "name": "Constitutional symptom",
+          "ic": 1.98,
+          "refsA": null,
+          "refsB": null
+        }
+      ],
+      "onlyA": [
+        {
+          "id": "HP:0025075",
+          "name": "Increased QRS voltage",
+          "ic": 8.36,
+          "refs": [
+            "OMIM:300257 · PMID:15253947"
+          ]
+        },
+        {
+          "id": "HP:0025717",
+          "name": "Skeletal muscle autophagosome accumulation",
+          "ic": 8.08,
+          "refs": [
+            "OMIM:300257 · PMID:10972294"
+          ]
+        },
+        {
+          "id": "HP:0001700",
+          "name": "Myocardial necrosis",
+          "ic": 8.08,
+          "refs": [
+            "OMIM:300257 · OMIM:300257"
+          ]
+        },
+        {
+          "id": "HP:0003756",
+          "name": "Skeletal myopathy",
+          "ic": 7.16,
+          "refs": [
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        },
+        {
+          "id": "HP:0010547",
+          "name": "Muscle flaccidity",
+          "ic": 6.52,
+          "refs": [
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        },
+        {
+          "id": "HP:0011706",
+          "name": "Second degree atrioventricular block",
+          "ic": 6.42,
+          "refs": [
+            "OMIM:300257 · PMID:15253947"
+          ]
+        },
+        {
+          "id": "HP:0006543",
+          "name": "Cardiorespiratory arrest",
+          "ic": 6.37,
+          "refs": [
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        },
+        {
+          "id": "HP:0012666",
+          "name": "Severely reduced left ventricular ejection fraction",
+          "ic": 6.33,
+          "refs": [
+            "OMIM:300257 · PMID:15253947"
+          ]
+        },
+        {
+          "id": "HP:0003710",
+          "name": "Exercise-induced muscle cramps",
+          "ic": 6.28,
+          "refs": [
+            "OMIM:300257 · OMIM:300257"
+          ]
+        },
+        {
+          "id": "HP:0009073",
+          "name": "Progressive proximal muscle weakness",
+          "ic": 6.24,
+          "refs": [
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        },
+        {
+          "id": "HP:0001716",
+          "name": "Wolff-Parkinson-White syndrome",
+          "ic": 6.2,
+          "refs": [
+            "OMIM:300257 · PMID:15253947",
+            "ORPHA:34587 · ORPHA:34587"
+          ]
+        },
+        {
+          "id": "HP:0001685",
+          "name": "Myocardial fibrosis",
+          "ic": 6.17,
+          "refs": [
+            "OMIM:300257 · OMIM:300257"
+          ]
+        }
+      ],
+      "onlyB": [
+        {
+          "id": "HP:0001670",
+          "name": "Asymmetric septal hypertrophy",
+          "ic": 6.98,
+          "refs": [
+            "OMIM:192600 · OMIM:192600"
+          ]
+        },
+        {
+          "id": "HP:0001682",
+          "name": "Subvalvular aortic stenosis",
+          "ic": 6.33,
+          "refs": [
+            "OMIM:192600 · OMIM:192600"
+          ]
+        },
+        {
+          "id": "HP:0001699",
+          "name": "Sudden death",
+          "ic": 4.53,
+          "refs": [
+            "OMIM:192600 · OMIM:192600"
+          ]
+        }
+      ]
+    },
+    "pompe|prkag2": {
+      "simGIC": 0.057,
+      "shared": [
+        {
+          "id": "HP:0005165",
+          "name": "Shortened PR interval",
+          "ic": 6.9,
+          "refsA": [
+            "OMIM:232300 · OMIM:232300",
+            "ORPHA:365 · ORPHA:365"
+          ],
+          "refsB": [
+            "OMIM:600858 · PMID:15673802"
+          ]
+        },
+        {
+          "id": "HP:0001716",
+          "name": "Wolff-Parkinson-White syndrome",
+          "ic": 6.2,
+          "refsA": [
+            "OMIM:232300 · OMIM:232300"
+          ],
+          "refsB": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0011702",
+          "name": "Abnormal electrophysiology of sinoatrial node origin",
+          "ic": 5.37,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0001639",
+          "name": "Hypertrophic cardiomyopathy",
+          "ic": 3.92,
+          "refsA": [
+            "ORPHA:365 · ORPHA:365"
+          ],
+          "refsB": [
+            "OMIM:600858 · PMID:11371514;PMID:15673802"
+          ]
+        },
+        {
+          "id": "HP:0012531",
+          "name": "Pain",
+          "ic": 2.38,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0011446",
+          "name": "Abnormality of mental function",
+          "ic": 0.81,
+          "refsA": null,
+          "refsB": null
+        }
+      ],
+      "onlyA": [
+        {
+          "id": "HP:6001008",
+          "name": "Elevated urine glucose tetrasaccharide level",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:232300 · PMID:20301438"
+          ]
+        },
+        {
+          "id": "HP:6000088",
+          "name": "Reduced muscle alpha-1,4-glucosidase activity",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:232300 · OMIM:232300"
+          ]
+        },
+        {
+          "id": "HP:0033235",
+          "name": "Difficulty descending stairs",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:232300 · PMID:35386406"
+          ]
+        },
+        {
+          "id": "HP:0031310",
+          "name": "Basilar artery calcification",
+          "ic": 9.46,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0034932",
+          "name": "Decreased circulating acid maltase activity",
+          "ic": 9.46,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0003725",
+          "name": "Firm muscles",
+          "ic": 8.77,
+          "refs": [
+            "OMIM:232300 · OMIM:232300"
+          ]
+        },
+        {
+          "id": "HP:0030231",
+          "name": "Glycogen accumulation in muscle fiber lysosomes",
+          "ic": 8.36,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0033567",
+          "name": "Right axis deviation",
+          "ic": 8.08,
+          "refs": [
+            "OMIM:232300 · PMID:35386406"
+          ]
+        },
+        {
+          "id": "HP:0032232",
+          "name": "Elevated circulating CK-MB concentration",
+          "ic": 7.52,
+          "refs": [
+            "OMIM:232300 · PMID:35386406"
+          ]
+        },
+        {
+          "id": "HP:0030195",
+          "name": "Fatigable weakness of swallowing muscles",
+          "ic": 7.38,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0030196",
+          "name": "Fatigable weakness of respiratory muscles",
+          "ic": 7.27,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:3000062",
+          "name": "Abnormal internal carotid artery morphology",
+          "ic": 7.16,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        }
+      ],
+      "onlyB": [
+        {
+          "id": "HP:0031628",
+          "name": "Aborted sudden cardiac death",
+          "ic": 7.85,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001670",
+          "name": "Asymmetric septal hypertrophy",
+          "ic": 6.98,
+          "refs": [
+            "OMIM:600858 · OMIM:600858"
+          ]
+        },
+        {
+          "id": "HP:0031318",
+          "name": "Myofiber disarray",
+          "ic": 6.9,
+          "refs": [
+            "OMIM:600858 · OMIM:600858"
+          ]
+        },
+        {
+          "id": "HP:0006677",
+          "name": "Prolonged QRS complex",
+          "ic": 6.75,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0011713",
+          "name": "Left bundle branch block",
+          "ic": 6.28,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001688",
+          "name": "Sinus bradycardia",
+          "ic": 6.17,
+          "refs": [
+            "OMIM:600858 · OMIM:600858"
+          ]
+        },
+        {
+          "id": "HP:0001678",
+          "name": "Atrioventricular block",
+          "ic": 4.91,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0005110",
+          "name": "Atrial fibrillation",
+          "ic": 4.79,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001962",
+          "name": "Palpitations",
+          "ic": 4.72,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001279",
+          "name": "Syncope",
+          "ic": 4.62,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0100749",
+          "name": "Chest pain",
+          "ic": 4.56,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001635",
+          "name": "Congestive heart failure",
+          "ic": 3.7,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        }
+      ]
+    },
+    "fabry|pompe": {
+      "simGIC": 0.129,
+      "shared": [
+        {
+          "id": "HP:0012532",
+          "name": "Chronic pain",
+          "ic": 6.57,
+          "refsA": [
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0002326",
+          "name": "Transient ischemic attack",
+          "ic": 5.63,
+          "refsA": [
+            "OMIM:301500 · PMID:19473999",
+            "OMIM:301500 · PMID:19473999",
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0012700",
+          "name": "Abnormal large intestine physiology",
+          "ic": 5.11,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0001712",
+          "name": "Left ventricular hypertrophy",
+          "ic": 4.69,
+          "refsA": [
+            "OMIM:301500 · PMID:19473999",
+            "OMIM:301500 · PMID:19473999",
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0003546",
+          "name": "Exercise intolerance",
+          "ic": 4.52,
+          "refsA": [
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": [
+            "OMIM:232300 · PMID:35386406",
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0002380",
+          "name": "Fasciculations",
+          "ic": 4.43,
+          "refsA": [
+            "OMIM:301500 · OMIM:301500"
+          ],
+          "refsB": null
+        },
+        {
+          "id": "HP:0001639",
+          "name": "Hypertrophic cardiomyopathy",
+          "ic": 3.92,
+          "refsA": [
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0032243",
+          "name": "Abnormal tissue metabolite concentration",
+          "ic": 3.79,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0003326",
+          "name": "Myalgia",
+          "ic": 3.79,
+          "refsA": [
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0012378",
+          "name": "Fatigue",
+          "ic": 3.38,
+          "refsA": [
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0001945",
+          "name": "Fever",
+          "ic": 3.18,
+          "refsA": [
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": [
+            "OMIM:232300 · OMIM:232300"
+          ]
+        },
+        {
+          "id": "HP:0002094",
+          "name": "Dyspnea",
+          "ic": 3.13,
+          "refsA": [
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": [
+            "OMIM:232300 · PMID:35386406"
+          ]
+        },
+        {
+          "id": "HP:0004349",
+          "name": "Reduced bone mineral density",
+          "ic": 2.97,
+          "refsA": [
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": null
+        },
+        {
+          "id": "HP:0011675",
+          "name": "Arrhythmia",
+          "ic": 2.9,
+          "refsA": [
+            "OMIM:301500 · OMIM:301500",
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": null
+        },
+        {
+          "id": "HP:0012379",
+          "name": "Abnormal circulating enzyme concentration or activity",
+          "ic": 2.77,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0000969",
+          "name": "Edema",
+          "ic": 2.77,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0002093",
+          "name": "Respiratory insufficiency",
+          "ic": 2.76,
+          "refsA": [
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": [
+            "OMIM:232300 · OMIM:232300",
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0033354",
+          "name": "Abnormal urine metabolite level",
+          "ic": 2.7,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0410008",
+          "name": "Abnormality of the peripheral nervous system",
+          "ic": 2.45,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0025270",
+          "name": "Abnormal esophagus physiology",
+          "ic": 2.44,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0100543",
+          "name": "Cognitive impairment",
+          "ic": 2.3,
+          "refsA": [
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0002088",
+          "name": "Abnormal lung morphology",
+          "ic": 2.03,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0430071",
+          "name": "Abnormal circulating organic compound concentration",
+          "ic": 1.87,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0000365",
+          "name": "Hearing impairment",
+          "ic": 1.81,
+          "refsA": [
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": [
+            "OMIM:232300 · OMIM:232300",
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0001871",
+          "name": "Abnormality of blood and blood-forming tissues",
+          "ic": 1.67,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0011458",
+          "name": "Abdominal symptom",
+          "ic": 1.57,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0001510",
+          "name": "Growth delay",
+          "ic": 1.4,
+          "refsA": null,
+          "refsB": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0000163",
+          "name": "Abnormal oral cavity morphology",
+          "ic": 1.32,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0011804",
+          "name": "Abnormal muscle physiology",
+          "ic": 1.04,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0040064",
+          "name": "Abnormality of limbs",
+          "ic": 0.94,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0012759",
+          "name": "Neurodevelopmental abnormality",
+          "ic": 0.93,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0000478",
+          "name": "Abnormality of the eye",
+          "ic": 0.78,
+          "refsA": null,
+          "refsB": null
+        }
+      ],
+      "onlyA": [
+        {
+          "id": "HP:0032567",
+          "name": "Lipiduria",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:301500 · PMID:26124059"
+          ]
+        },
+        {
+          "id": "HP:0032568",
+          "name": "Urinary mulberry cells",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:301500 · PMID:28593486"
+          ]
+        },
+        {
+          "id": "HP:0033595",
+          "name": "Elevated circulating globotriaosylceramide concentration",
+          "ic": 8.77,
+          "refs": [
+            "OMIM:301500 · PMID:17073606",
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0034864",
+          "name": "Decreased alpha-galactosidase A activity",
+          "ic": 8.77,
+          "refs": [
+            "OMIM:301500 · OMIM:301500",
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0500008",
+          "name": "Cornea verticillata",
+          "ic": 8.77,
+          "refs": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0001071",
+          "name": "Angiokeratoma corporis diffusum",
+          "ic": 7.67,
+          "refs": [
+            "OMIM:301500 · PMID:8993949"
+          ]
+        },
+        {
+          "id": "HP:0012702",
+          "name": "Tenesmus",
+          "ic": 7.52,
+          "refs": [
+            "OMIM:301500 · OMIM:301500"
+          ]
+        },
+        {
+          "id": "HP:0001014",
+          "name": "Angiokeratoma",
+          "ic": 7.16,
+          "refs": [
+            "OMIM:301500 · OMIM:301500",
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0004343",
+          "name": "Abnormal glycosphingolipid metabolism",
+          "ic": 6.82,
+          "refs": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0005144",
+          "name": "Ventricular septal hypertrophy",
+          "ic": 6.57,
+          "refs": [
+            "OMIM:301500 · PMID:19473999"
+          ]
+        },
+        {
+          "id": "HP:0031006",
+          "name": "Acroparesthesia",
+          "ic": 6.57,
+          "refs": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0000524",
+          "name": "Conjunctival telangiectasia",
+          "ic": 6.52,
+          "refs": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        }
+      ],
+      "onlyB": [
+        {
+          "id": "HP:6001008",
+          "name": "Elevated urine glucose tetrasaccharide level",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:232300 · PMID:20301438"
+          ]
+        },
+        {
+          "id": "HP:6000088",
+          "name": "Reduced muscle alpha-1,4-glucosidase activity",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:232300 · OMIM:232300"
+          ]
+        },
+        {
+          "id": "HP:0033235",
+          "name": "Difficulty descending stairs",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:232300 · PMID:35386406"
+          ]
+        },
+        {
+          "id": "HP:0031310",
+          "name": "Basilar artery calcification",
+          "ic": 9.46,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0034932",
+          "name": "Decreased circulating acid maltase activity",
+          "ic": 9.46,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0003725",
+          "name": "Firm muscles",
+          "ic": 8.77,
+          "refs": [
+            "OMIM:232300 · OMIM:232300"
+          ]
+        },
+        {
+          "id": "HP:0030231",
+          "name": "Glycogen accumulation in muscle fiber lysosomes",
+          "ic": 8.36,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0033567",
+          "name": "Right axis deviation",
+          "ic": 8.08,
+          "refs": [
+            "OMIM:232300 · PMID:35386406"
+          ]
+        },
+        {
+          "id": "HP:0032232",
+          "name": "Elevated circulating CK-MB concentration",
+          "ic": 7.52,
+          "refs": [
+            "OMIM:232300 · PMID:35386406"
+          ]
+        },
+        {
+          "id": "HP:0030195",
+          "name": "Fatigable weakness of swallowing muscles",
+          "ic": 7.38,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0030196",
+          "name": "Fatigable weakness of respiratory muscles",
+          "ic": 7.27,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:3000062",
+          "name": "Abnormal internal carotid artery morphology",
+          "ic": 7.16,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        }
+      ]
+    },
+    "fabry|prkag2": {
+      "simGIC": 0.057,
+      "shared": [
+        {
+          "id": "HP:0011710",
+          "name": "Bundle branch block",
+          "ic": 5.02,
+          "refsA": [
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": null
+        },
+        {
+          "id": "HP:0001678",
+          "name": "Atrioventricular block",
+          "ic": 4.91,
+          "refsA": [
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001639",
+          "name": "Hypertrophic cardiomyopathy",
+          "ic": 3.92,
+          "refsA": [
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": [
+            "OMIM:600858 · PMID:11371514;PMID:15673802"
+          ]
+        },
+        {
+          "id": "HP:0001635",
+          "name": "Congestive heart failure",
+          "ic": 3.7,
+          "refsA": [
+            "OMIM:301500 · OMIM:301500",
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0011675",
+          "name": "Arrhythmia",
+          "ic": 2.9,
+          "refsA": [
+            "OMIM:301500 · OMIM:301500",
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": null
+        },
+        {
+          "id": "HP:0012531",
+          "name": "Pain",
+          "ic": 2.38,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0011446",
+          "name": "Abnormality of mental function",
+          "ic": 0.81,
+          "refsA": null,
+          "refsB": null
+        }
+      ],
+      "onlyA": [
+        {
+          "id": "HP:0032567",
+          "name": "Lipiduria",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:301500 · PMID:26124059"
+          ]
+        },
+        {
+          "id": "HP:0032568",
+          "name": "Urinary mulberry cells",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:301500 · PMID:28593486"
+          ]
+        },
+        {
+          "id": "HP:0033595",
+          "name": "Elevated circulating globotriaosylceramide concentration",
+          "ic": 8.77,
+          "refs": [
+            "OMIM:301500 · PMID:17073606",
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0034864",
+          "name": "Decreased alpha-galactosidase A activity",
+          "ic": 8.77,
+          "refs": [
+            "OMIM:301500 · OMIM:301500",
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0500008",
+          "name": "Cornea verticillata",
+          "ic": 8.77,
+          "refs": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0001071",
+          "name": "Angiokeratoma corporis diffusum",
+          "ic": 7.67,
+          "refs": [
+            "OMIM:301500 · PMID:8993949"
+          ]
+        },
+        {
+          "id": "HP:0012702",
+          "name": "Tenesmus",
+          "ic": 7.52,
+          "refs": [
+            "OMIM:301500 · OMIM:301500"
+          ]
+        },
+        {
+          "id": "HP:0001014",
+          "name": "Angiokeratoma",
+          "ic": 7.16,
+          "refs": [
+            "OMIM:301500 · OMIM:301500",
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0004343",
+          "name": "Abnormal glycosphingolipid metabolism",
+          "ic": 6.82,
+          "refs": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0005144",
+          "name": "Ventricular septal hypertrophy",
+          "ic": 6.57,
+          "refs": [
+            "OMIM:301500 · PMID:19473999"
+          ]
+        },
+        {
+          "id": "HP:0012532",
+          "name": "Chronic pain",
+          "ic": 6.57,
+          "refs": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0031006",
+          "name": "Acroparesthesia",
+          "ic": 6.57,
+          "refs": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        }
+      ],
+      "onlyB": [
+        {
+          "id": "HP:0031628",
+          "name": "Aborted sudden cardiac death",
+          "ic": 7.85,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001670",
+          "name": "Asymmetric septal hypertrophy",
+          "ic": 6.98,
+          "refs": [
+            "OMIM:600858 · OMIM:600858"
+          ]
+        },
+        {
+          "id": "HP:0031318",
+          "name": "Myofiber disarray",
+          "ic": 6.9,
+          "refs": [
+            "OMIM:600858 · OMIM:600858"
+          ]
+        },
+        {
+          "id": "HP:0005165",
+          "name": "Shortened PR interval",
+          "ic": 6.9,
+          "refs": [
+            "OMIM:600858 · PMID:15673802"
+          ]
+        },
+        {
+          "id": "HP:0006677",
+          "name": "Prolonged QRS complex",
+          "ic": 6.75,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0011713",
+          "name": "Left bundle branch block",
+          "ic": 6.28,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001716",
+          "name": "Wolff-Parkinson-White syndrome",
+          "ic": 6.2,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001688",
+          "name": "Sinus bradycardia",
+          "ic": 6.17,
+          "refs": [
+            "OMIM:600858 · OMIM:600858"
+          ]
+        },
+        {
+          "id": "HP:0004309",
+          "name": "Ventricular preexcitation",
+          "ic": 6.13,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0005110",
+          "name": "Atrial fibrillation",
+          "ic": 4.79,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001962",
+          "name": "Palpitations",
+          "ic": 4.72,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001279",
+          "name": "Syncope",
+          "ic": 4.62,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        }
+      ]
+    },
+    "fabry|hcm": {
+      "simGIC": 0.04,
+      "shared": [
+        {
+          "id": "HP:0001711",
+          "name": "Abnormal left ventricle morphology",
+          "ic": 4.39,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0001639",
+          "name": "Hypertrophic cardiomyopathy",
+          "ic": 3.92,
+          "refsA": [
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": null
+        },
+        {
+          "id": "HP:0001635",
+          "name": "Congestive heart failure",
+          "ic": 3.7,
+          "refsA": [
+            "OMIM:301500 · OMIM:301500",
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": [
+            "OMIM:192600 · OMIM:192600"
+          ]
+        },
+        {
+          "id": "HP:0011675",
+          "name": "Arrhythmia",
+          "ic": 2.9,
+          "refsA": [
+            "OMIM:301500 · OMIM:301500",
+            "ORPHA:324 · ORPHA:324"
+          ],
+          "refsB": [
+            "OMIM:192600 · OMIM:192600"
+          ]
+        },
+        {
+          "id": "HP:0025142",
+          "name": "Constitutional symptom",
+          "ic": 1.98,
+          "refsA": null,
+          "refsB": null
+        }
+      ],
+      "onlyA": [
+        {
+          "id": "HP:0032567",
+          "name": "Lipiduria",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:301500 · PMID:26124059"
+          ]
+        },
+        {
+          "id": "HP:0032568",
+          "name": "Urinary mulberry cells",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:301500 · PMID:28593486"
+          ]
+        },
+        {
+          "id": "HP:0033595",
+          "name": "Elevated circulating globotriaosylceramide concentration",
+          "ic": 8.77,
+          "refs": [
+            "OMIM:301500 · PMID:17073606",
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0034864",
+          "name": "Decreased alpha-galactosidase A activity",
+          "ic": 8.77,
+          "refs": [
+            "OMIM:301500 · OMIM:301500",
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0500008",
+          "name": "Cornea verticillata",
+          "ic": 8.77,
+          "refs": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0001071",
+          "name": "Angiokeratoma corporis diffusum",
+          "ic": 7.67,
+          "refs": [
+            "OMIM:301500 · PMID:8993949"
+          ]
+        },
+        {
+          "id": "HP:0012702",
+          "name": "Tenesmus",
+          "ic": 7.52,
+          "refs": [
+            "OMIM:301500 · OMIM:301500"
+          ]
+        },
+        {
+          "id": "HP:0001014",
+          "name": "Angiokeratoma",
+          "ic": 7.16,
+          "refs": [
+            "OMIM:301500 · OMIM:301500",
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0004343",
+          "name": "Abnormal glycosphingolipid metabolism",
+          "ic": 6.82,
+          "refs": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0005144",
+          "name": "Ventricular septal hypertrophy",
+          "ic": 6.57,
+          "refs": [
+            "OMIM:301500 · PMID:19473999"
+          ]
+        },
+        {
+          "id": "HP:0012532",
+          "name": "Chronic pain",
+          "ic": 6.57,
+          "refs": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        },
+        {
+          "id": "HP:0031006",
+          "name": "Acroparesthesia",
+          "ic": 6.57,
+          "refs": [
+            "ORPHA:324 · ORPHA:324"
+          ]
+        }
+      ],
+      "onlyB": [
+        {
+          "id": "HP:0001670",
+          "name": "Asymmetric septal hypertrophy",
+          "ic": 6.98,
+          "refs": [
+            "OMIM:192600 · OMIM:192600"
+          ]
+        },
+        {
+          "id": "HP:0001682",
+          "name": "Subvalvular aortic stenosis",
+          "ic": 6.33,
+          "refs": [
+            "OMIM:192600 · OMIM:192600"
+          ]
+        },
+        {
+          "id": "HP:0001699",
+          "name": "Sudden death",
+          "ic": 4.53,
+          "refs": [
+            "OMIM:192600 · OMIM:192600"
+          ]
+        }
+      ]
+    },
+    "hcm|pompe": {
+      "simGIC": 0.028,
+      "shared": [
+        {
+          "id": "HP:0001711",
+          "name": "Abnormal left ventricle morphology",
+          "ic": 4.39,
+          "refsA": null,
+          "refsB": null
+        },
+        {
+          "id": "HP:0001639",
+          "name": "Hypertrophic cardiomyopathy",
+          "ic": 3.92,
+          "refsA": null,
+          "refsB": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0011675",
+          "name": "Arrhythmia",
+          "ic": 2.9,
+          "refsA": [
+            "OMIM:192600 · OMIM:192600"
+          ],
+          "refsB": null
+        },
+        {
+          "id": "HP:0025142",
+          "name": "Constitutional symptom",
+          "ic": 1.98,
+          "refsA": null,
+          "refsB": null
+        }
+      ],
+      "onlyA": [
+        {
+          "id": "HP:0001670",
+          "name": "Asymmetric septal hypertrophy",
+          "ic": 6.98,
+          "refs": [
+            "OMIM:192600 · OMIM:192600"
+          ]
+        },
+        {
+          "id": "HP:0001682",
+          "name": "Subvalvular aortic stenosis",
+          "ic": 6.33,
+          "refs": [
+            "OMIM:192600 · OMIM:192600"
+          ]
+        },
+        {
+          "id": "HP:0001699",
+          "name": "Sudden death",
+          "ic": 4.53,
+          "refs": [
+            "OMIM:192600 · OMIM:192600"
+          ]
+        },
+        {
+          "id": "HP:0001635",
+          "name": "Congestive heart failure",
+          "ic": 3.7,
+          "refs": [
+            "OMIM:192600 · OMIM:192600"
+          ]
+        }
+      ],
+      "onlyB": [
+        {
+          "id": "HP:6001008",
+          "name": "Elevated urine glucose tetrasaccharide level",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:232300 · PMID:20301438"
+          ]
+        },
+        {
+          "id": "HP:6000088",
+          "name": "Reduced muscle alpha-1,4-glucosidase activity",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:232300 · OMIM:232300"
+          ]
+        },
+        {
+          "id": "HP:0033235",
+          "name": "Difficulty descending stairs",
+          "ic": 9.46,
+          "refs": [
+            "OMIM:232300 · PMID:35386406"
+          ]
+        },
+        {
+          "id": "HP:0031310",
+          "name": "Basilar artery calcification",
+          "ic": 9.46,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0034932",
+          "name": "Decreased circulating acid maltase activity",
+          "ic": 9.46,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0003725",
+          "name": "Firm muscles",
+          "ic": 8.77,
+          "refs": [
+            "OMIM:232300 · OMIM:232300"
+          ]
+        },
+        {
+          "id": "HP:0030231",
+          "name": "Glycogen accumulation in muscle fiber lysosomes",
+          "ic": 8.36,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0033567",
+          "name": "Right axis deviation",
+          "ic": 8.08,
+          "refs": [
+            "OMIM:232300 · PMID:35386406"
+          ]
+        },
+        {
+          "id": "HP:0032232",
+          "name": "Elevated circulating CK-MB concentration",
+          "ic": 7.52,
+          "refs": [
+            "OMIM:232300 · PMID:35386406"
+          ]
+        },
+        {
+          "id": "HP:0030195",
+          "name": "Fatigable weakness of swallowing muscles",
+          "ic": 7.38,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:0030196",
+          "name": "Fatigable weakness of respiratory muscles",
+          "ic": 7.27,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        },
+        {
+          "id": "HP:3000062",
+          "name": "Abnormal internal carotid artery morphology",
+          "ic": 7.16,
+          "refs": [
+            "ORPHA:365 · ORPHA:365"
+          ]
+        }
+      ]
+    },
+    "hcm|prkag2": {
+      "simGIC": 0.162,
+      "shared": [
+        {
+          "id": "HP:0001670",
+          "name": "Asymmetric septal hypertrophy",
+          "ic": 6.98,
+          "refsA": [
+            "OMIM:192600 · OMIM:192600"
+          ],
+          "refsB": [
+            "OMIM:600858 · OMIM:600858"
+          ]
+        },
+        {
+          "id": "HP:0001635",
+          "name": "Congestive heart failure",
+          "ic": 3.7,
+          "refsA": [
+            "OMIM:192600 · OMIM:192600"
+          ],
+          "refsB": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0011675",
+          "name": "Arrhythmia",
+          "ic": 2.9,
+          "refsA": [
+            "OMIM:192600 · OMIM:192600"
+          ],
+          "refsB": null
+        },
+        {
+          "id": "HP:0025142",
+          "name": "Constitutional symptom",
+          "ic": 1.98,
+          "refsA": null,
+          "refsB": null
+        }
+      ],
+      "onlyA": [
+        {
+          "id": "HP:0001682",
+          "name": "Subvalvular aortic stenosis",
+          "ic": 6.33,
+          "refs": [
+            "OMIM:192600 · OMIM:192600"
+          ]
+        },
+        {
+          "id": "HP:0001699",
+          "name": "Sudden death",
+          "ic": 4.53,
+          "refs": [
+            "OMIM:192600 · OMIM:192600"
+          ]
+        }
+      ],
+      "onlyB": [
+        {
+          "id": "HP:0031628",
+          "name": "Aborted sudden cardiac death",
+          "ic": 7.85,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0031318",
+          "name": "Myofiber disarray",
+          "ic": 6.9,
+          "refs": [
+            "OMIM:600858 · OMIM:600858"
+          ]
+        },
+        {
+          "id": "HP:0005165",
+          "name": "Shortened PR interval",
+          "ic": 6.9,
+          "refs": [
+            "OMIM:600858 · PMID:15673802"
+          ]
+        },
+        {
+          "id": "HP:0006677",
+          "name": "Prolonged QRS complex",
+          "ic": 6.75,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0011713",
+          "name": "Left bundle branch block",
+          "ic": 6.28,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001716",
+          "name": "Wolff-Parkinson-White syndrome",
+          "ic": 6.2,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001688",
+          "name": "Sinus bradycardia",
+          "ic": 6.17,
+          "refs": [
+            "OMIM:600858 · OMIM:600858"
+          ]
+        },
+        {
+          "id": "HP:0004309",
+          "name": "Ventricular preexcitation",
+          "ic": 6.13,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001678",
+          "name": "Atrioventricular block",
+          "ic": 4.91,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0005110",
+          "name": "Atrial fibrillation",
+          "ic": 4.79,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001962",
+          "name": "Palpitations",
+          "ic": 4.72,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        },
+        {
+          "id": "HP:0001279",
+          "name": "Syncope",
+          "ic": 4.62,
+          "refs": [
+            "OMIM:600858 · PMID:11371514"
+          ]
+        }
+      ]
+    }
+  }
+}

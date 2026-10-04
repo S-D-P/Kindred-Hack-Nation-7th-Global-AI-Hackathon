@@ -1,0 +1,31 @@
+{
+  "name": "kindred",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "data:download": "node scripts/download.mjs",
+    "data:phenotypes": "node scripts/build-phenotypes.mjs",
+    "data:verify": "node scripts/verify-quotes.mjs",
+    "data": "npm run data:download && npm run data:phenotypes && npm run data:publications && npm run data:verify",
+    "test": "tsx --tsconfig tsconfig.json --test tests/*.test.ts",
+    "data:publications": "node scripts/build-publications.mjs"
+  },
+  "dependencies": {
+    "next": "16.3.8",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.8",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}
